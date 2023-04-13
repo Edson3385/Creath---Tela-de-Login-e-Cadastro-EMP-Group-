@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(23,23,23) ;
+  min-height: 100vh;
+  
+}
+
+.centralize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: 90vh;
+}
+
+form {
+  width: 500px
+}
+
+p{
+  color: white;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: -webkit-fill-available;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+button.clear {
+  background: none;
+  border: none;
+  color: white;
+}
+
+button.solid {
+  background-color: rgb(148, 155, 161);
+  color: white;
+
+}
+
+button.outline {
+  background-color: rgb(41, 129, 202);
+  color: white;
+}
